@@ -18,6 +18,7 @@
 		9D9CCA622B8DC6A600AD9F2A /* OffsetKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9CCA612B8DC6A600AD9F2A /* OffsetKey.swift */; };
 		9D9CCA642B8DCE7800AD9F2A /* TaskRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9CCA632B8DCE7800AD9F2A /* TaskRowView.swift */; };
 		9D9CCA662B8DD66B00AD9F2A /* NewTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9CCA652B8DD66B00AD9F2A /* NewTaskView.swift */; };
+		9D9CCA682B8F282C00AD9F2A /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9CCA672B8F282C00AD9F2A /* TaskView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		9D9CCA612B8DC6A600AD9F2A /* OffsetKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetKey.swift; sourceTree = "<group>"; };
 		9D9CCA632B8DCE7800AD9F2A /* TaskRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRowView.swift; sourceTree = "<group>"; };
 		9D9CCA652B8DD66B00AD9F2A /* NewTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskView.swift; sourceTree = "<group>"; };
+		9D9CCA672B8F282C00AD9F2A /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				9D9CCA5F2B8DB44300AD9F2A /* Home.swift */,
 				9D9CCA652B8DD66B00AD9F2A /* NewTaskView.swift */,
 				9D9CCA632B8DCE7800AD9F2A /* TaskRowView.swift */,
+				9D9CCA672B8F282C00AD9F2A /* TaskView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				9D9CCA472B8DA3E700AD9F2A /* ContentView.swift in Sources */,
 				9D9CCA592B8DB2E300AD9F2A /* Date+Extension.swift in Sources */,
 				9D9CCA662B8DD66B00AD9F2A /* NewTaskView.swift in Sources */,
+				9D9CCA682B8F282C00AD9F2A /* TaskView.swift in Sources */,
 				9D9CCA642B8DCE7800AD9F2A /* TaskRowView.swift in Sources */,
 				9D9CCA5B2B8DB2FF00AD9F2A /* View+Extension.swift in Sources */,
 				9D9CCA622B8DC6A600AD9F2A /* OffsetKey.swift in Sources */,

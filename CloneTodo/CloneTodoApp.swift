@@ -13,5 +13,6 @@ struct CloneTodoApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: Task.self)
     }
 }

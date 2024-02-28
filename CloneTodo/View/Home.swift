@@ -12,7 +12,7 @@ struct Home: View {
     @State private var weekSlider: [[Date.WeekDay]] = []
     @State private var currentWeekIndex: Int = 1
     @State private var createWeek: Bool = false
-    @State private var tasks: [Task] = sampleTasks.sorted(by: { $1.creationDate > $0.creationDate })
+//    @State private var tasks: [Task] = sampleTasks.sorted(by: { $1.creationDate > $0.creationDate })
     @State private var createNewTask: Bool = false
     
     /// Animation Name Space
@@ -25,7 +25,7 @@ struct Home: View {
             ScrollView(.vertical) {
                 VStack {
                     /// Tasks View
-                    TaskView()
+                    TaskView(currentDate: $currentDate)
                 }
             }
             .hSpacing(.center)
@@ -190,24 +190,24 @@ struct Home: View {
     }
     
     // Task View
-    @ViewBuilder
-    func TaskView() -> some View {
-        VStack(alignment: .leading, spacing: 35) {
-            ForEach($tasks) { $task in
-                TaskRowView(task: $task)
-                    .background(alignment: .leading) {
-                        if tasks.last?.id != task.id {
-                            Rectangle()
-                                .frame(width: 1)
-                                .offset(x: 8)
-                                .padding(.bottom, -35)
-                        }
-                    }
-            }
-        }
-        .padding([.vertical, .leading], 15)
-        .padding(.top, 15)
-    }
+//    @ViewBuilder
+//    func TaskView() -> some View {
+//        VStack(alignment: .leading, spacing: 35) {
+//            ForEach($tasks) { $task in
+//                TaskRowView(task: $task)
+//                    .background(alignment: .leading) {
+//                        if tasks.last?.id != task.id {
+//                            Rectangle()
+//                                .frame(width: 1)
+//                                .offset(x: 8)
+//                                .padding(.bottom, -35)
+//                        }
+//                    }
+//            }
+//        }
+//        .padding([.vertical, .leading], 15)
+//        .padding(.top, 15)
+//    }
     
     func paginateWeek() {
         /// SafeCheck
