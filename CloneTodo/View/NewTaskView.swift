@@ -79,6 +79,8 @@ struct NewTaskView: View {
             })
             .padding(.top, 5)
             
+            Spacer(minLength: 0)
+            
             Button(action: {
                 
             }, label: {
